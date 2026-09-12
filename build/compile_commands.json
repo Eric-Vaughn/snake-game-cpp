@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/coding-projects/snake-game-cpp/build",
+  "command": "c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DUSE_LIBTYPE_SHARED @CMakeFiles\\snake-game-cpp.dir\\includes_C.rsp -g -o CMakeFiles\\snake-game-cpp.dir\\src\\main.c.obj -c C:\\coding-projects\\snake-game-cpp\\src\\main.c",
+  "file": "C:/coding-projects/snake-game-cpp/src/main.c",
+  "output": "CMakeFiles/snake-game-cpp.dir/src/main.c.obj"
+}
+]
