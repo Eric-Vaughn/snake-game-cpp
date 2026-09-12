@@ -28,6 +28,10 @@ events:
       - "mingw32-make.exe"
     candidate_directories:
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -49,6 +53,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
@@ -59,27 +65,37 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -108,27 +124,37 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "message-v1"
     backtrace:
@@ -149,7 +175,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/coding-projects/snake-game-cpp/build/CMakeFiles/4.4.3/CompilerIdC/a.exe
+        C:/coding-projects/snake-game-c/build/CMakeFiles/4.4.3/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -174,6 +200,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -195,6 +225,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-ar.com"
       - "c:/raylib/w64devkit/bin/ccache-ar.exe"
@@ -202,6 +234,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-ar.com"
       - "C:/raylib/w64devkit/bin/ccache-ar.exe"
       - "C:/raylib/w64devkit/bin/ccache-ar"
+      - "C:/Users/vaugh/bin/ccache-ar.com"
+      - "C:/Users/vaugh/bin/ccache-ar.exe"
+      - "C:/Users/vaugh/bin/ccache-ar"
+      - "C:/Git/mingw64/bin/ccache-ar.com"
+      - "C:/Git/mingw64/bin/ccache-ar.exe"
+      - "C:/Git/mingw64/bin/ccache-ar"
+      - "C:/Git/usr/local/bin/ccache-ar.com"
+      - "C:/Git/usr/local/bin/ccache-ar.exe"
+      - "C:/Git/usr/local/bin/ccache-ar"
+      - "C:/Git/usr/bin/ccache-ar.com"
+      - "C:/Git/usr/bin/ccache-ar.exe"
+      - "C:/Git/usr/bin/ccache-ar"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ar.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ar.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ar"
@@ -265,32 +309,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ar.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ar.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ar"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ar.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ar.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ar"
+      - "C:/Git/usr/bin/core_perl/ccache-ar.com"
+      - "C:/Git/usr/bin/core_perl/ccache-ar.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-ar"
       - "c:/raylib/w64devkit/bin/ar.com"
     found: "C:/raylib/w64devkit/bin/ar.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -314,6 +374,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -335,6 +399,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-ranlib.com"
       - "c:/raylib/w64devkit/bin/ccache-ranlib.exe"
@@ -342,6 +408,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-ranlib.com"
       - "C:/raylib/w64devkit/bin/ccache-ranlib.exe"
       - "C:/raylib/w64devkit/bin/ccache-ranlib"
+      - "C:/Users/vaugh/bin/ccache-ranlib.com"
+      - "C:/Users/vaugh/bin/ccache-ranlib.exe"
+      - "C:/Users/vaugh/bin/ccache-ranlib"
+      - "C:/Git/mingw64/bin/ccache-ranlib.com"
+      - "C:/Git/mingw64/bin/ccache-ranlib.exe"
+      - "C:/Git/mingw64/bin/ccache-ranlib"
+      - "C:/Git/usr/local/bin/ccache-ranlib.com"
+      - "C:/Git/usr/local/bin/ccache-ranlib.exe"
+      - "C:/Git/usr/local/bin/ccache-ranlib"
+      - "C:/Git/usr/bin/ccache-ranlib.com"
+      - "C:/Git/usr/bin/ccache-ranlib.exe"
+      - "C:/Git/usr/bin/ccache-ranlib"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ranlib.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ranlib.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ranlib"
@@ -405,32 +483,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ranlib.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ranlib.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ranlib"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ranlib.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ranlib.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ranlib"
+      - "C:/Git/usr/bin/core_perl/ccache-ranlib.com"
+      - "C:/Git/usr/bin/core_perl/ccache-ranlib.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-ranlib"
       - "c:/raylib/w64devkit/bin/ranlib.com"
     found: "C:/raylib/w64devkit/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -454,6 +548,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -475,6 +573,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-strip.com"
       - "c:/raylib/w64devkit/bin/ccache-strip.exe"
@@ -482,6 +582,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-strip.com"
       - "C:/raylib/w64devkit/bin/ccache-strip.exe"
       - "C:/raylib/w64devkit/bin/ccache-strip"
+      - "C:/Users/vaugh/bin/ccache-strip.com"
+      - "C:/Users/vaugh/bin/ccache-strip.exe"
+      - "C:/Users/vaugh/bin/ccache-strip"
+      - "C:/Git/mingw64/bin/ccache-strip.com"
+      - "C:/Git/mingw64/bin/ccache-strip.exe"
+      - "C:/Git/mingw64/bin/ccache-strip"
+      - "C:/Git/usr/local/bin/ccache-strip.com"
+      - "C:/Git/usr/local/bin/ccache-strip.exe"
+      - "C:/Git/usr/local/bin/ccache-strip"
+      - "C:/Git/usr/bin/ccache-strip.com"
+      - "C:/Git/usr/bin/ccache-strip.exe"
+      - "C:/Git/usr/bin/ccache-strip"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-strip.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-strip.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-strip"
@@ -545,32 +657,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-strip.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-strip.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-strip"
+      - "C:/Git/usr/bin/vendor_perl/ccache-strip.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-strip.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-strip"
+      - "C:/Git/usr/bin/core_perl/ccache-strip.com"
+      - "C:/Git/usr/bin/core_perl/ccache-strip.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-strip"
       - "c:/raylib/w64devkit/bin/strip.com"
     found: "C:/raylib/w64devkit/bin/strip.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -594,6 +722,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -615,6 +747,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-ld.com"
       - "c:/raylib/w64devkit/bin/ccache-ld.exe"
@@ -622,6 +756,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-ld.com"
       - "C:/raylib/w64devkit/bin/ccache-ld.exe"
       - "C:/raylib/w64devkit/bin/ccache-ld"
+      - "C:/Users/vaugh/bin/ccache-ld.com"
+      - "C:/Users/vaugh/bin/ccache-ld.exe"
+      - "C:/Users/vaugh/bin/ccache-ld"
+      - "C:/Git/mingw64/bin/ccache-ld.com"
+      - "C:/Git/mingw64/bin/ccache-ld.exe"
+      - "C:/Git/mingw64/bin/ccache-ld"
+      - "C:/Git/usr/local/bin/ccache-ld.com"
+      - "C:/Git/usr/local/bin/ccache-ld.exe"
+      - "C:/Git/usr/local/bin/ccache-ld"
+      - "C:/Git/usr/bin/ccache-ld.com"
+      - "C:/Git/usr/bin/ccache-ld.exe"
+      - "C:/Git/usr/bin/ccache-ld"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ld.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ld.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-ld"
@@ -685,32 +831,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ld.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ld.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-ld"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ld.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ld.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-ld"
+      - "C:/Git/usr/bin/core_perl/ccache-ld.com"
+      - "C:/Git/usr/bin/core_perl/ccache-ld.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-ld"
       - "c:/raylib/w64devkit/bin/ld.com"
     found: "C:/raylib/w64devkit/bin/ld.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -734,6 +896,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -755,6 +921,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-nm.com"
       - "c:/raylib/w64devkit/bin/ccache-nm.exe"
@@ -762,6 +930,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-nm.com"
       - "C:/raylib/w64devkit/bin/ccache-nm.exe"
       - "C:/raylib/w64devkit/bin/ccache-nm"
+      - "C:/Users/vaugh/bin/ccache-nm.com"
+      - "C:/Users/vaugh/bin/ccache-nm.exe"
+      - "C:/Users/vaugh/bin/ccache-nm"
+      - "C:/Git/mingw64/bin/ccache-nm.com"
+      - "C:/Git/mingw64/bin/ccache-nm.exe"
+      - "C:/Git/mingw64/bin/ccache-nm"
+      - "C:/Git/usr/local/bin/ccache-nm.com"
+      - "C:/Git/usr/local/bin/ccache-nm.exe"
+      - "C:/Git/usr/local/bin/ccache-nm"
+      - "C:/Git/usr/bin/ccache-nm.com"
+      - "C:/Git/usr/bin/ccache-nm.exe"
+      - "C:/Git/usr/bin/ccache-nm"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-nm.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-nm.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-nm"
@@ -825,32 +1005,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-nm.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-nm.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-nm"
+      - "C:/Git/usr/bin/vendor_perl/ccache-nm.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-nm.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-nm"
+      - "C:/Git/usr/bin/core_perl/ccache-nm.com"
+      - "C:/Git/usr/bin/core_perl/ccache-nm.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-nm"
       - "c:/raylib/w64devkit/bin/nm.com"
     found: "C:/raylib/w64devkit/bin/nm.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -874,6 +1070,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -895,6 +1095,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-objdump.com"
       - "c:/raylib/w64devkit/bin/ccache-objdump.exe"
@@ -902,6 +1104,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-objdump.com"
       - "C:/raylib/w64devkit/bin/ccache-objdump.exe"
       - "C:/raylib/w64devkit/bin/ccache-objdump"
+      - "C:/Users/vaugh/bin/ccache-objdump.com"
+      - "C:/Users/vaugh/bin/ccache-objdump.exe"
+      - "C:/Users/vaugh/bin/ccache-objdump"
+      - "C:/Git/mingw64/bin/ccache-objdump.com"
+      - "C:/Git/mingw64/bin/ccache-objdump.exe"
+      - "C:/Git/mingw64/bin/ccache-objdump"
+      - "C:/Git/usr/local/bin/ccache-objdump.com"
+      - "C:/Git/usr/local/bin/ccache-objdump.exe"
+      - "C:/Git/usr/local/bin/ccache-objdump"
+      - "C:/Git/usr/bin/ccache-objdump.com"
+      - "C:/Git/usr/bin/ccache-objdump.exe"
+      - "C:/Git/usr/bin/ccache-objdump"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-objdump.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-objdump.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-objdump"
@@ -965,32 +1179,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-objdump.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-objdump.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-objdump"
+      - "C:/Git/usr/bin/vendor_perl/ccache-objdump.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-objdump.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-objdump"
+      - "C:/Git/usr/bin/core_perl/ccache-objdump.com"
+      - "C:/Git/usr/bin/core_perl/ccache-objdump.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-objdump"
       - "c:/raylib/w64devkit/bin/objdump.com"
     found: "C:/raylib/w64devkit/bin/objdump.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1014,6 +1244,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1035,6 +1269,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-objcopy.com"
       - "c:/raylib/w64devkit/bin/ccache-objcopy.exe"
@@ -1042,6 +1278,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-objcopy.com"
       - "C:/raylib/w64devkit/bin/ccache-objcopy.exe"
       - "C:/raylib/w64devkit/bin/ccache-objcopy"
+      - "C:/Users/vaugh/bin/ccache-objcopy.com"
+      - "C:/Users/vaugh/bin/ccache-objcopy.exe"
+      - "C:/Users/vaugh/bin/ccache-objcopy"
+      - "C:/Git/mingw64/bin/ccache-objcopy.com"
+      - "C:/Git/mingw64/bin/ccache-objcopy.exe"
+      - "C:/Git/mingw64/bin/ccache-objcopy"
+      - "C:/Git/usr/local/bin/ccache-objcopy.com"
+      - "C:/Git/usr/local/bin/ccache-objcopy.exe"
+      - "C:/Git/usr/local/bin/ccache-objcopy"
+      - "C:/Git/usr/bin/ccache-objcopy.com"
+      - "C:/Git/usr/bin/ccache-objcopy.exe"
+      - "C:/Git/usr/bin/ccache-objcopy"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-objcopy.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-objcopy.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-objcopy"
@@ -1105,32 +1353,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-objcopy.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-objcopy.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-objcopy"
+      - "C:/Git/usr/bin/vendor_perl/ccache-objcopy.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-objcopy.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-objcopy"
+      - "C:/Git/usr/bin/core_perl/ccache-objcopy.com"
+      - "C:/Git/usr/bin/core_perl/ccache-objcopy.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-objcopy"
       - "c:/raylib/w64devkit/bin/objcopy.com"
     found: "C:/raylib/w64devkit/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1154,6 +1418,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1175,6 +1443,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-readelf.com"
       - "c:/raylib/w64devkit/bin/ccache-readelf.exe"
@@ -1182,6 +1452,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-readelf.com"
       - "C:/raylib/w64devkit/bin/ccache-readelf.exe"
       - "C:/raylib/w64devkit/bin/ccache-readelf"
+      - "C:/Users/vaugh/bin/ccache-readelf.com"
+      - "C:/Users/vaugh/bin/ccache-readelf.exe"
+      - "C:/Users/vaugh/bin/ccache-readelf"
+      - "C:/Git/mingw64/bin/ccache-readelf.com"
+      - "C:/Git/mingw64/bin/ccache-readelf.exe"
+      - "C:/Git/mingw64/bin/ccache-readelf"
+      - "C:/Git/usr/local/bin/ccache-readelf.com"
+      - "C:/Git/usr/local/bin/ccache-readelf.exe"
+      - "C:/Git/usr/local/bin/ccache-readelf"
+      - "C:/Git/usr/bin/ccache-readelf.com"
+      - "C:/Git/usr/bin/ccache-readelf.exe"
+      - "C:/Git/usr/bin/ccache-readelf"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-readelf.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-readelf.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-readelf"
@@ -1245,12 +1527,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-readelf.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-readelf.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-readelf"
+      - "C:/Git/usr/bin/vendor_perl/ccache-readelf.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-readelf.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-readelf"
+      - "C:/Git/usr/bin/core_perl/ccache-readelf.com"
+      - "C:/Git/usr/bin/core_perl/ccache-readelf.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-readelf"
       - "c:/raylib/w64devkit/bin/readelf.com"
       - "c:/raylib/w64devkit/bin/readelf.exe"
       - "c:/raylib/w64devkit/bin/readelf"
       - "C:/raylib/w64devkit/bin/readelf.com"
       - "C:/raylib/w64devkit/bin/readelf.exe"
       - "C:/raylib/w64devkit/bin/readelf"
+      - "C:/Users/vaugh/bin/readelf.com"
+      - "C:/Users/vaugh/bin/readelf.exe"
+      - "C:/Users/vaugh/bin/readelf"
+      - "C:/Git/mingw64/bin/readelf.com"
+      - "C:/Git/mingw64/bin/readelf.exe"
+      - "C:/Git/mingw64/bin/readelf"
+      - "C:/Git/usr/local/bin/readelf.com"
+      - "C:/Git/usr/local/bin/readelf.exe"
+      - "C:/Git/usr/local/bin/readelf"
+      - "C:/Git/usr/bin/readelf.com"
+      - "C:/Git/usr/bin/readelf.exe"
+      - "C:/Git/usr/bin/readelf"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/readelf.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/readelf.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/readelf"
@@ -1292,27 +1592,37 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1336,6 +1646,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1357,6 +1671,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-dlltool.com"
       - "c:/raylib/w64devkit/bin/ccache-dlltool.exe"
@@ -1364,6 +1680,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-dlltool.com"
       - "C:/raylib/w64devkit/bin/ccache-dlltool.exe"
       - "C:/raylib/w64devkit/bin/ccache-dlltool"
+      - "C:/Users/vaugh/bin/ccache-dlltool.com"
+      - "C:/Users/vaugh/bin/ccache-dlltool.exe"
+      - "C:/Users/vaugh/bin/ccache-dlltool"
+      - "C:/Git/mingw64/bin/ccache-dlltool.com"
+      - "C:/Git/mingw64/bin/ccache-dlltool.exe"
+      - "C:/Git/mingw64/bin/ccache-dlltool"
+      - "C:/Git/usr/local/bin/ccache-dlltool.com"
+      - "C:/Git/usr/local/bin/ccache-dlltool.exe"
+      - "C:/Git/usr/local/bin/ccache-dlltool"
+      - "C:/Git/usr/bin/ccache-dlltool.com"
+      - "C:/Git/usr/bin/ccache-dlltool.exe"
+      - "C:/Git/usr/bin/ccache-dlltool"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-dlltool.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-dlltool.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-dlltool"
@@ -1427,32 +1755,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-dlltool.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-dlltool.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-dlltool"
+      - "C:/Git/usr/bin/vendor_perl/ccache-dlltool.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-dlltool.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-dlltool"
+      - "C:/Git/usr/bin/core_perl/ccache-dlltool.com"
+      - "C:/Git/usr/bin/core_perl/ccache-dlltool.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-dlltool"
       - "c:/raylib/w64devkit/bin/dlltool.com"
     found: "C:/raylib/w64devkit/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1476,6 +1820,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1497,6 +1845,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-addr2line.com"
       - "c:/raylib/w64devkit/bin/ccache-addr2line.exe"
@@ -1504,6 +1854,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-addr2line.com"
       - "C:/raylib/w64devkit/bin/ccache-addr2line.exe"
       - "C:/raylib/w64devkit/bin/ccache-addr2line"
+      - "C:/Users/vaugh/bin/ccache-addr2line.com"
+      - "C:/Users/vaugh/bin/ccache-addr2line.exe"
+      - "C:/Users/vaugh/bin/ccache-addr2line"
+      - "C:/Git/mingw64/bin/ccache-addr2line.com"
+      - "C:/Git/mingw64/bin/ccache-addr2line.exe"
+      - "C:/Git/mingw64/bin/ccache-addr2line"
+      - "C:/Git/usr/local/bin/ccache-addr2line.com"
+      - "C:/Git/usr/local/bin/ccache-addr2line.exe"
+      - "C:/Git/usr/local/bin/ccache-addr2line"
+      - "C:/Git/usr/bin/ccache-addr2line.com"
+      - "C:/Git/usr/bin/ccache-addr2line.exe"
+      - "C:/Git/usr/bin/ccache-addr2line"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-addr2line.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-addr2line.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-addr2line"
@@ -1567,32 +1929,48 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-addr2line.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-addr2line.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-addr2line"
+      - "C:/Git/usr/bin/vendor_perl/ccache-addr2line.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-addr2line.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-addr2line"
+      - "C:/Git/usr/bin/core_perl/ccache-addr2line.com"
+      - "C:/Git/usr/bin/core_perl/ccache-addr2line.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-addr2line"
       - "c:/raylib/w64devkit/bin/addr2line.com"
     found: "C:/raylib/w64devkit/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1616,6 +1994,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1637,6 +2019,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-tapi.com"
       - "c:/raylib/w64devkit/bin/ccache-tapi.exe"
@@ -1644,6 +2028,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-tapi.com"
       - "C:/raylib/w64devkit/bin/ccache-tapi.exe"
       - "C:/raylib/w64devkit/bin/ccache-tapi"
+      - "C:/Users/vaugh/bin/ccache-tapi.com"
+      - "C:/Users/vaugh/bin/ccache-tapi.exe"
+      - "C:/Users/vaugh/bin/ccache-tapi"
+      - "C:/Git/mingw64/bin/ccache-tapi.com"
+      - "C:/Git/mingw64/bin/ccache-tapi.exe"
+      - "C:/Git/mingw64/bin/ccache-tapi"
+      - "C:/Git/usr/local/bin/ccache-tapi.com"
+      - "C:/Git/usr/local/bin/ccache-tapi.exe"
+      - "C:/Git/usr/local/bin/ccache-tapi"
+      - "C:/Git/usr/bin/ccache-tapi.com"
+      - "C:/Git/usr/bin/ccache-tapi.exe"
+      - "C:/Git/usr/bin/ccache-tapi"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-tapi.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-tapi.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-tapi"
@@ -1707,12 +2103,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-tapi.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-tapi.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-tapi"
+      - "C:/Git/usr/bin/vendor_perl/ccache-tapi.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-tapi.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-tapi"
+      - "C:/Git/usr/bin/core_perl/ccache-tapi.com"
+      - "C:/Git/usr/bin/core_perl/ccache-tapi.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-tapi"
       - "c:/raylib/w64devkit/bin/tapi.com"
       - "c:/raylib/w64devkit/bin/tapi.exe"
       - "c:/raylib/w64devkit/bin/tapi"
       - "C:/raylib/w64devkit/bin/tapi.com"
       - "C:/raylib/w64devkit/bin/tapi.exe"
       - "C:/raylib/w64devkit/bin/tapi"
+      - "C:/Users/vaugh/bin/tapi.com"
+      - "C:/Users/vaugh/bin/tapi.exe"
+      - "C:/Users/vaugh/bin/tapi"
+      - "C:/Git/mingw64/bin/tapi.com"
+      - "C:/Git/mingw64/bin/tapi.exe"
+      - "C:/Git/mingw64/bin/tapi"
+      - "C:/Git/usr/local/bin/tapi.com"
+      - "C:/Git/usr/local/bin/tapi.exe"
+      - "C:/Git/usr/local/bin/tapi"
+      - "C:/Git/usr/bin/tapi.com"
+      - "C:/Git/usr/bin/tapi.exe"
+      - "C:/Git/usr/bin/tapi"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi"
@@ -1776,31 +2190,47 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/tapi.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/tapi.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/tapi"
+      - "C:/Git/usr/bin/vendor_perl/tapi.com"
+      - "C:/Git/usr/bin/vendor_perl/tapi.exe"
+      - "C:/Git/usr/bin/vendor_perl/tapi"
+      - "C:/Git/usr/bin/core_perl/tapi.com"
+      - "C:/Git/usr/bin/core_perl/tapi.exe"
+      - "C:/Git/usr/bin/core_perl/tapi"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -1826,6 +2256,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1847,6 +2281,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.exe"
@@ -1854,6 +2290,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.2"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.2"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.2"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.2.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.2.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.2"
@@ -1917,12 +2365,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.2.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.2.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.2"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15"
@@ -1986,12 +2452,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar15"
+      - "C:/Git/usr/bin/ccache-gcc-ar15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar15"
@@ -2055,12 +2539,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar"
+      - "C:/Git/usr/bin/ccache-gcc-ar.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar"
@@ -2124,31 +2626,47 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -2174,6 +2692,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -2195,6 +2717,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.exe"
@@ -2202,6 +2726,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.2"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.2.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.2.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.2"
@@ -2265,12 +2801,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.2.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.2.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.2"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15"
@@ -2334,12 +2888,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib15"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib15"
@@ -2403,12 +2975,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib"
@@ -2472,31 +3062,47 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -2525,27 +3131,37 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "message-v1"
     backtrace:
@@ -2566,7 +3182,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/coding-projects/snake-game-cpp/build/CMakeFiles/4.4.3/CompilerIdCXX/a.exe
+        C:/coding-projects/snake-game-c/build/CMakeFiles/4.4.3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -2593,6 +3209,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -2614,6 +3234,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.exe"
@@ -2621,6 +3243,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.2.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.2"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.2"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.2"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.2.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.2.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.2"
@@ -2684,12 +3318,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.2.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.2.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.2"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.2.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.2.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.2"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar-15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar-15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar-15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar-15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar-15"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar-15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar-15"
@@ -2753,12 +3405,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar-15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar-15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar-15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar15"
+      - "C:/Git/usr/bin/ccache-gcc-ar15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar15"
@@ -2822,12 +3492,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ar"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ar"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ar"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ar"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ar"
+      - "C:/Git/usr/bin/ccache-gcc-ar.com"
+      - "C:/Git/usr/bin/ccache-gcc-ar.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ar"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ar"
@@ -2891,31 +3579,47 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ar"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ar"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ar"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -2941,6 +3645,10 @@ events:
     candidate_directories:
       - "c:/raylib/w64devkit/bin/"
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -2962,6 +3670,8 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
     searched_directories:
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.exe"
@@ -2969,6 +3679,18 @@ events:
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.2"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.2.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.2.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.2"
@@ -3032,12 +3754,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.2.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.2.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.2"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.2.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.2.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.2"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib-15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib-15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib-15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib-15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib-15"
@@ -3101,12 +3841,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib-15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib-15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib15.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib15.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib15"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib15.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib15.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib15"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib15.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib15"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib15.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib15"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib15"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib15"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib15.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib15.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib15"
@@ -3170,12 +3928,30 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib15.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib15.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib15"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib15"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib15.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib15.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib15"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib.com"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib.exe"
       - "c:/raylib/w64devkit/bin/ccache-gcc-ranlib"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib.com"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib.exe"
       - "C:/raylib/w64devkit/bin/ccache-gcc-ranlib"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib.com"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib.exe"
+      - "C:/Users/vaugh/bin/ccache-gcc-ranlib"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib.com"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib.exe"
+      - "C:/Git/mingw64/bin/ccache-gcc-ranlib"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/local/bin/ccache-gcc-ranlib"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/bin/ccache-gcc-ranlib"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-gcc-ranlib"
@@ -3239,31 +4015,47 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-gcc-ranlib"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-gcc-ranlib"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib.com"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-gcc-ranlib"
     found: false
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
   -
     kind: "find-v1"
     backtrace:
@@ -3288,6 +4080,10 @@ events:
       - "windres"
     candidate_directories:
       - "C:/raylib/w64devkit/bin/"
+      - "C:/Users/vaugh/bin/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/usr/local/bin/"
+      - "C:/Git/usr/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -3309,6 +4105,11 @@ events:
       - "C:/Users/vaugh/AppData/Local/Python/bin/"
       - "C:/Users/vaugh/AppData/Roaming/npm/"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/"
+      - "C:/Git/usr/bin/vendor_perl/"
+      - "C:/Git/usr/bin/core_perl/"
+      - "C:/Git/mingw64/bin/"
+      - "C:/Git/mingw64/sbin/"
+      - "C:/Git/mingw64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -3318,13 +4119,25 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/snake-game-cpp/bin/"
-      - "C:/Program Files (x86)/snake-game-cpp/sbin/"
-      - "C:/Program Files (x86)/snake-game-cpp/"
+      - "C:/Program Files (x86)/snake-game-c/bin/"
+      - "C:/Program Files (x86)/snake-game-c/sbin/"
+      - "C:/Program Files (x86)/snake-game-c/"
     searched_directories:
       - "C:/raylib/w64devkit/bin/ccache-windres.com"
       - "C:/raylib/w64devkit/bin/ccache-windres.exe"
       - "C:/raylib/w64devkit/bin/ccache-windres"
+      - "C:/Users/vaugh/bin/ccache-windres.com"
+      - "C:/Users/vaugh/bin/ccache-windres.exe"
+      - "C:/Users/vaugh/bin/ccache-windres"
+      - "C:/Git/mingw64/bin/ccache-windres.com"
+      - "C:/Git/mingw64/bin/ccache-windres.exe"
+      - "C:/Git/mingw64/bin/ccache-windres"
+      - "C:/Git/usr/local/bin/ccache-windres.com"
+      - "C:/Git/usr/local/bin/ccache-windres.exe"
+      - "C:/Git/usr/local/bin/ccache-windres"
+      - "C:/Git/usr/bin/ccache-windres.com"
+      - "C:/Git/usr/bin/ccache-windres.exe"
+      - "C:/Git/usr/bin/ccache-windres"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-windres.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-windres.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache-windres"
@@ -3388,6 +4201,21 @@ events:
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-windres.com"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-windres.exe"
       - "C:/Users/vaugh/COMMAND-LINE-STUFF/exiftool-13.59_64/ccache-windres"
+      - "C:/Git/usr/bin/vendor_perl/ccache-windres.com"
+      - "C:/Git/usr/bin/vendor_perl/ccache-windres.exe"
+      - "C:/Git/usr/bin/vendor_perl/ccache-windres"
+      - "C:/Git/usr/bin/core_perl/ccache-windres.com"
+      - "C:/Git/usr/bin/core_perl/ccache-windres.exe"
+      - "C:/Git/usr/bin/core_perl/ccache-windres"
+      - "C:/Git/mingw64/bin/ccache-windres.com"
+      - "C:/Git/mingw64/bin/ccache-windres.exe"
+      - "C:/Git/mingw64/bin/ccache-windres"
+      - "C:/Git/mingw64/sbin/ccache-windres.com"
+      - "C:/Git/mingw64/sbin/ccache-windres.exe"
+      - "C:/Git/mingw64/sbin/ccache-windres"
+      - "C:/Git/mingw64/ccache-windres.com"
+      - "C:/Git/mingw64/ccache-windres.exe"
+      - "C:/Git/mingw64/ccache-windres"
       - "C:/Program Files/bin/ccache-windres.com"
       - "C:/Program Files/bin/ccache-windres.exe"
       - "C:/Program Files/bin/ccache-windres"
@@ -3415,47 +4243,58 @@ events:
       - "C:/Program Files/CMake/ccache-windres.com"
       - "C:/Program Files/CMake/ccache-windres.exe"
       - "C:/Program Files/CMake/ccache-windres"
-      - "C:/Program Files (x86)/snake-game-cpp/bin/ccache-windres.com"
-      - "C:/Program Files (x86)/snake-game-cpp/bin/ccache-windres.exe"
-      - "C:/Program Files (x86)/snake-game-cpp/bin/ccache-windres"
-      - "C:/Program Files (x86)/snake-game-cpp/sbin/ccache-windres.com"
-      - "C:/Program Files (x86)/snake-game-cpp/sbin/ccache-windres.exe"
-      - "C:/Program Files (x86)/snake-game-cpp/sbin/ccache-windres"
-      - "C:/Program Files (x86)/snake-game-cpp/ccache-windres.com"
-      - "C:/Program Files (x86)/snake-game-cpp/ccache-windres.exe"
-      - "C:/Program Files (x86)/snake-game-cpp/ccache-windres"
+      - "C:/Program Files (x86)/snake-game-c/bin/ccache-windres.com"
+      - "C:/Program Files (x86)/snake-game-c/bin/ccache-windres.exe"
+      - "C:/Program Files (x86)/snake-game-c/bin/ccache-windres"
+      - "C:/Program Files (x86)/snake-game-c/sbin/ccache-windres.com"
+      - "C:/Program Files (x86)/snake-game-c/sbin/ccache-windres.exe"
+      - "C:/Program Files (x86)/snake-game-c/sbin/ccache-windres"
+      - "C:/Program Files (x86)/snake-game-c/ccache-windres.com"
+      - "C:/Program Files (x86)/snake-game-c/ccache-windres.exe"
+      - "C:/Program Files (x86)/snake-game-c/ccache-windres"
       - "C:/raylib/w64devkit/bin/windres.com"
     found: "C:/raylib/w64devkit/bin/windres.exe"
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/snake-game-cpp"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/snake-game-c"
       CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Git/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/snake-game-cpp"
+        - "C:/Program Files (x86)/snake-game-c"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -3465,8 +4304,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu"
-      binary: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu"
+      source: "C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f"
+      binary: "C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -3476,13 +4315,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu'
+        Change Dir: 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_6801c/fast
-        make  -f CMakeFiles\\cmTC_6801c.dir\\build.make CMakeFiles/cmTC_6801c.dir/build
-        make[1]: Entering directory 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu'
-        Building C object CMakeFiles/cmTC_6801c.dir/CMakeCCompilerABI.c.obj
-        c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe   -v -o CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_2806b/fast
+        make  -f CMakeFiles\\cmTC_2806b.dir\\build.make CMakeFiles/cmTC_2806b.dir/build
+        make[1]: Entering directory 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f'
+        Building C object CMakeFiles/cmTC_2806b.dir/CMakeCCompilerABI.c.obj
+        c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe   -v -o CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -3490,8 +4329,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6801c.dir\\'
-         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_6801c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccAfpvl5.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2806b.dir\\'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_2806b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccqExLtZ.s
         GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -3506,14 +4345,14 @@ events:
          C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
         End of search list.
         Compiler executable checksum: a203bba55305068b78d260e6fc4a55e5
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6801c.dir\\'
-         as -v -o CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccAfpvl5.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2806b.dir\\'
+         as -v -o CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccqExLtZ.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210
         COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_6801c.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6801c.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_2806b.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2806b.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -3524,16 +4363,16 @@ events:
         gcc version 15.2.0 (GCC) 
         COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6801c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6801c.'
-         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_6801c.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a --no-whole-archive --out-implib libcmTC_6801c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2806b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2806b.'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_2806b.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a --no-whole-archive --out-implib libcmTC_2806b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_6801c.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a --no-whole-archive --out-implib libcmTC_6801c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_2806b.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a --no-whole-archive --out-implib libcmTC_2806b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6801c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6801c.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6801c.dir/objects.a
-        C:\\raylib\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_6801c.dir/objects.a @CMakeFiles\\cmTC_6801c.dir\\objects1.rsp
-        c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a -Wl,--no-whole-archive -o cmTC_6801c.exe -Wl,--out-implib,libcmTC_6801c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        make[1]: Leaving directory 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2806b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2806b.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2806b.dir/objects.a
+        C:\\raylib\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_2806b.dir/objects.a @CMakeFiles\\cmTC_2806b.dir\\objects1.rsp
+        c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a -Wl,--no-whole-archive -o cmTC_2806b.exe -Wl,--out-implib,libcmTC_2806b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: Leaving directory 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f'
         
       exitCode: 0
   -
@@ -3566,13 +4405,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu']
+        ignore line: [Change Dir: 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_6801c/fast]
-        ignore line: [make  -f CMakeFiles\\cmTC_6801c.dir\\build.make CMakeFiles/cmTC_6801c.dir/build]
-        ignore line: [make[1]: Entering directory 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-4tw7lu']
-        ignore line: [Building C object CMakeFiles/cmTC_6801c.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe   -v -o CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_2806b/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_2806b.dir\\build.make CMakeFiles/cmTC_2806b.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-3kro4f']
+        ignore line: [Building C object CMakeFiles/cmTC_2806b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [c:\\raylib\\w64devkit\\bin\\ccache-gcc.exe   -v -o CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3580,8 +4419,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6801c.dir\\']
-        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_6801c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccAfpvl5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2806b.dir\\']
+        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_2806b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccqExLtZ.s]
         ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -3596,8 +4435,8 @@ events:
         ignore line: [ C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: a203bba55305068b78d260e6fc4a55e5]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6801c.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccAfpvl5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2806b.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccqExLtZ.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
@@ -3605,9 +4444,9 @@ events:
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6801c.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_6801c.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6801c.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2806b.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_2806b.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2806b.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -3622,15 +4461,15 @@ events:
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6801c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6801c.']
-        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_6801c.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a --no-whole-archive --out-implib libcmTC_6801c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2806b.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2806b.']
+        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_2806b.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a --no-whole-archive --out-implib libcmTC_2806b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [--sysroot=C:/raylib/w64devkit/bin/../../w64devkit] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_6801c.exe] ==> ignore
+          arg [cmTC_2806b.exe] ==> ignore
           arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -3639,10 +4478,10 @@ events:
           arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_6801c.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_2806b.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_6801c.dll.a] ==> ignore
+          arg [libcmTC_2806b.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3664,9 +4503,9 @@ events:
           arg [-lkernel32] ==> lib [kernel32]
           arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_6801c.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a --no-whole-archive --out-implib libcmTC_6801c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker [c:\\raylib\\w64devkit\\bin/ld.exe]
-        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_6801c.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a --no-whole-archive --out-implib libcmTC_6801c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
-        ignore line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_6801c.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_6801c.dir/objects.a --no-whole-archive --out-implib libcmTC_6801c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_2806b.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a --no-whole-archive --out-implib libcmTC_2806b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker [c:\\raylib\\w64devkit\\bin/ld.exe]
+        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_2806b.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a --no-whole-archive --out-implib libcmTC_2806b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
+        ignore line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_2806b.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2806b.dir/objects.a --no-whole-archive --out-implib libcmTC_2806b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'C': c:/raylib/w64devkit/bin/ld.exe -m;i386pep
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -3702,8 +4541,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz"
-      binary: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz"
+      source: "C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on"
+      binary: "C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3714,13 +4553,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz'
+        Change Dir: 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_40a19/fast
-        make  -f CMakeFiles\\cmTC_40a19.dir\\build.make CMakeFiles/cmTC_40a19.dir/build
-        make[1]: Entering directory 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz'
-        Building CXX object CMakeFiles/cmTC_40a19.dir/CMakeCXXCompilerABI.cpp.obj
-        c:\\raylib\\w64devkit\\bin\\ccache-g++.exe   -v -o CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_befb6/fast
+        make  -f CMakeFiles\\cmTC_befb6.dir\\build.make CMakeFiles/cmTC_befb6.dir/build
+        make[1]: Entering directory 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on'
+        Building CXX object CMakeFiles/cmTC_befb6.dir/CMakeCXXCompilerABI.cpp.obj
+        c:\\raylib\\w64devkit\\bin\\ccache-g++.exe   -v -o CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -3728,8 +4567,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_40a19.dir\\'
-         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_40a19.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfMT6xF.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_befb6.dir\\'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_befb6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfGLDKp.s
         GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -3750,14 +4589,14 @@ events:
          C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
         End of search list.
         Compiler executable checksum: 1a45d061e7cbead691cb8bf7a55f39c1
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_40a19.dir\\'
-         as -v -o CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfMT6xF.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_befb6.dir\\'
+         as -v -o CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfGLDKp.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210
         COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_40a19.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_40a19.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_befb6.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_befb6.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -3768,16 +4607,16 @@ events:
         gcc version 15.2.0 (GCC) 
         COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/raylib/w64devkit/bin/../lib/gcc/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40a19.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40a19.'
-         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_40a19.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a --no-whole-archive --out-implib libcmTC_40a19.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_befb6.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_befb6.'
+         C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_befb6.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a --no-whole-archive --out-implib libcmTC_befb6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_40a19.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a --no-whole-archive --out-implib libcmTC_40a19.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_befb6.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a --no-whole-archive --out-implib libcmTC_befb6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40a19.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40a19.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_40a19.dir/objects.a
-        C:\\raylib\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_40a19.dir/objects.a @CMakeFiles\\cmTC_40a19.dir\\objects1.rsp
-        c:\\raylib\\w64devkit\\bin\\ccache-g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a -Wl,--no-whole-archive -o cmTC_40a19.exe -Wl,--out-implib,libcmTC_40a19.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        make[1]: Leaving directory 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_befb6.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_befb6.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_befb6.dir/objects.a
+        C:\\raylib\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_befb6.dir/objects.a @CMakeFiles\\cmTC_befb6.dir\\objects1.rsp
+        c:\\raylib\\w64devkit\\bin\\ccache-g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a -Wl,--no-whole-archive -o cmTC_befb6.exe -Wl,--out-implib,libcmTC_befb6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        make[1]: Leaving directory 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on'
         
       exitCode: 0
   -
@@ -3816,13 +4655,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz']
+        ignore line: [Change Dir: 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_40a19/fast]
-        ignore line: [make  -f CMakeFiles\\cmTC_40a19.dir\\build.make CMakeFiles/cmTC_40a19.dir/build]
-        ignore line: [make[1]: Entering directory 'C:/coding-projects/snake-game-cpp/build/CMakeFiles/CMakeScratch/TryCompile-fi1edz']
-        ignore line: [Building CXX object CMakeFiles/cmTC_40a19.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [c:\\raylib\\w64devkit\\bin\\ccache-g++.exe   -v -o CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/raylib/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_befb6/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_befb6.dir\\build.make CMakeFiles/cmTC_befb6.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/coding-projects/snake-game-c/build/CMakeFiles/CMakeScratch/TryCompile-b803on']
+        ignore line: [Building CXX object CMakeFiles/cmTC_befb6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [c:\\raylib\\w64devkit\\bin\\ccache-g++.exe   -v -o CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3830,8 +4669,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_40a19.dir\\']
-        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_40a19.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfMT6xF.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_befb6.dir\\']
+        ignore line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -isysroot C:/raylib/w64devkit/bin/../../w64devkit -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_befb6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfGLDKp.s]
         ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -3852,8 +4691,8 @@ events:
         ignore line: [ C:/raylib/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 1a45d061e7cbead691cb8bf7a55f39c1]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_40a19.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfMT6xF.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_befb6.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\vaugh\\AppData\\Local\\Temp\\ccfGLDKp.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/raylib/w64devkit/bin/../libexec/gcc/]
@@ -3861,9 +4700,9 @@ events:
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_40a19.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_40a19.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_40a19.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.obj' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_befb6.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_befb6.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_befb6.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c:\\raylib\\w64devkit\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -3878,15 +4717,15 @@ events:
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40a19.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40a19.']
-        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_40a19.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a --no-whole-archive --out-implib libcmTC_40a19.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_befb6.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_befb6.']
+        link line: [ C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_befb6.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a --no-whole-archive --out-implib libcmTC_befb6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/raylib/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [--sysroot=C:/raylib/w64devkit/bin/../../w64devkit] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_40a19.exe] ==> ignore
+          arg [cmTC_befb6.exe] ==> ignore
           arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -3895,10 +4734,10 @@ events:
           arg [-LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_40a19.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_befb6.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_40a19.dll.a] ==> ignore
+          arg [libcmTC_befb6.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3921,9 +4760,9 @@ events:
           arg [-lkernel32] ==> lib [kernel32]
           arg [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_40a19.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a --no-whole-archive --out-implib libcmTC_40a19.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker [c:\\raylib\\w64devkit\\bin/ld.exe]
-        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_40a19.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a --no-whole-archive --out-implib libcmTC_40a19.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
-        ignore line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_40a19.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_40a19.dir/objects.a --no-whole-archive --out-implib libcmTC_40a19.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_befb6.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a --no-whole-archive --out-implib libcmTC_befb6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker [c:\\raylib\\w64devkit\\bin/ld.exe]
+        link line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_befb6.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a --no-whole-archive --out-implib libcmTC_befb6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
+        ignore line: [c:\\raylib\\w64devkit\\bin/ld.exe --sysroot=C:/raylib/w64devkit/bin/../../w64devkit -m i386pep -Bdynamic -o cmTC_befb6.exe C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/raylib/w64devkit/bin/../lib/gcc -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_befb6.dir/objects.a --no-whole-archive --out-implib libcmTC_befb6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/raylib/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': c:/raylib/w64devkit/bin/ld.exe -m;i386pep
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -3991,19 +4830,19 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/pkgRedirects/raylibConfig.cmake"
+        path: "C:/coding-projects/snake-game-c/build/CMakeFiles/pkgRedirects/raylibConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/pkgRedirects/raylib-config.cmake"
+        path: "C:/coding-projects/snake-game-c/build/CMakeFiles/pkgRedirects/raylib-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/pkgRedirects/lib/cps/raylib.cps"
+        path: "C:/coding-projects/snake-game-c/build/CMakeFiles/pkgRedirects/lib/cps/raylib.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/coding-projects/snake-game-cpp/build/CMakeFiles/pkgRedirects/share/cps/raylib.cps"
+        path: "C:/coding-projects/snake-game-c/build/CMakeFiles/pkgRedirects/share/cps/raylib.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4020,6 +4859,54 @@ events:
         reason: "no_exist"
       -
         path: "C:/raylib/w64devkit/share/cps/raylib.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/vaugh/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/vaugh/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/vaugh/lib/cps/raylib.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/vaugh/share/cps/raylib.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Git/mingw64/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Git/mingw64/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Git/mingw64/lib/cps/raylib.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Git/mingw64/share/cps/raylib.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Git/usr/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Git/usr/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Git/usr/lib/cps/raylib.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Git/usr/share/cps/raylib.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -4225,31 +5112,42 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\raylib\\w64devkit\\bin"
+        - "C:\\Users\\vaugh\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\local\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Git\\mingw64\\bin"
+        - "C:\\Git\\usr\\bin"
+        - "C:\\Users\\vaugh\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
         - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\dotnet"
         - "C:\\Git\\cmd"
-        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\nodejs"
         - "C:\\msys64\\mingw64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
-        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314\\Scripts"
+        - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Python\\Python314"
         - "C:\\Users\\vaugh\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\vaugh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\vaugh\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\vaugh\\AppData\\Roaming\\npm"
         - "C:\\Users\\vaugh\\COMMAND-LINE-STUFF\\exiftool-13.59_64"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/snake-game-cpp"
+        - "C:\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/snake-game-c"
       CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Git/mingw64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/snake-game-cpp"
+        - "C:/Program Files (x86)/snake-game-c"
 ...

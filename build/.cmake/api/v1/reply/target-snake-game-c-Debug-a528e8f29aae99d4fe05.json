@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "snake-game-cpp/snake-game-cpp.exe"
+			"path" : "snake-game-c/snake-game-c.exe"
 		},
 		{
-			"path" : "snake-game-cpp/snake-game-cpp.pdb"
+			"path" : "snake-game-c/snake-game-c.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -101,7 +101,7 @@
 			]
 		}
 	],
-	"id" : "snake-game-cpp::@6890427a1f51a3e7e1df",
+	"id" : "snake-game-c::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -129,8 +129,8 @@
 			"id" : "raylib::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "snake-game-cpp",
-	"nameOnDisk" : "snake-game-cpp.exe",
+	"name" : "snake-game-c",
+	"nameOnDisk" : "snake-game-c.exe",
 	"paths" : 
 	{
 		"build" : ".",

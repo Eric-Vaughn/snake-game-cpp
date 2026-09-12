@@ -53,21 +53,21 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\coding-projects\snake-game-cpp
+CMAKE_SOURCE_DIR = C:\coding-projects\snake-game-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\coding-projects\snake-game-cpp\build
+CMAKE_BINARY_DIR = C:\coding-projects\snake-game-c\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/snake-game-cpp.dir/all
+all: CMakeFiles/snake-game-c.dir/all
 all: src/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/snake-game-cpp.dir/codegen
+codegen: CMakeFiles/snake-game-c.dir/codegen
 codegen: src/codegen
 .PHONY : codegen
 
@@ -76,7 +76,7 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/snake-game-cpp.dir/clean
+clean: CMakeFiles/snake-game-c.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -100,36 +100,36 @@ src/clean:
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/snake-game-cpp.dir
+# Target rules for target CMakeFiles/snake-game-c.dir
 
 # All Build rule for target.
-CMakeFiles/snake-game-cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\coding-projects\snake-game-cpp\build\CMakeFiles --progress-num=1,2 "Built target snake-game-cpp"
-.PHONY : CMakeFiles/snake-game-cpp.dir/all
+CMakeFiles/snake-game-c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\coding-projects\snake-game-c\build\CMakeFiles --progress-num=1,2 "Built target snake-game-c"
+.PHONY : CMakeFiles/snake-game-c.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/snake-game-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-cpp\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/snake-game-cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-cpp\build\CMakeFiles 0
-.PHONY : CMakeFiles/snake-game-cpp.dir/rule
+CMakeFiles/snake-game-c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-c\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/snake-game-c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-c\build\CMakeFiles 0
+.PHONY : CMakeFiles/snake-game-c.dir/rule
 
 # Convenience name for target.
-snake-game-cpp: CMakeFiles/snake-game-cpp.dir/rule
-.PHONY : snake-game-cpp
+snake-game-c: CMakeFiles/snake-game-c.dir/rule
+.PHONY : snake-game-c
 
 # codegen rule for target.
-CMakeFiles/snake-game-cpp.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\coding-projects\snake-game-cpp\build\CMakeFiles --progress-num=1,2 "Finished codegen for target snake-game-cpp"
-.PHONY : CMakeFiles/snake-game-cpp.dir/codegen
+CMakeFiles/snake-game-c.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\coding-projects\snake-game-c\build\CMakeFiles --progress-num=1,2 "Finished codegen for target snake-game-c"
+.PHONY : CMakeFiles/snake-game-c.dir/codegen
 
 # clean rule for target.
-CMakeFiles/snake-game-cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/clean
-.PHONY : CMakeFiles/snake-game-cpp.dir/clean
+CMakeFiles/snake-game-c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/clean
+.PHONY : CMakeFiles/snake-game-c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
@@ -138,7 +138,7 @@ CMakeFiles/snake-game-cpp.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P C:\coding-projects\snake-game-cpp\build\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P C:\coding-projects\snake-game-c\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

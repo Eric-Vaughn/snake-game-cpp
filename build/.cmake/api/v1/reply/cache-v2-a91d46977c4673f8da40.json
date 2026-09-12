@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/coding-projects/snake-game-cpp/build"
+			"value" : "c:/coding-projects/snake-game-c/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "c:/raylib/w64devkit/bin/ccache-g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "c:/raylib/w64devkit/bin/ccache-gcc.exe"
 		},
 		{
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/coding-projects/snake-game-cpp/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/coding-projects/snake-game-c/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/coding-projects/snake-game-cpp"
+			"value" : "C:/coding-projects/snake-game-c"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/snake-game-cpp"
+			"value" : "C:/Program Files (x86)/snake-game-c"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "snake-game-cpp"
+			"value" : "snake-game-c"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -1367,7 +1367,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/coding-projects/snake-game-cpp/build/_deps"
+			"value" : "C:/coding-projects/snake-game-c/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1418,7 +1418,7 @@
 			"value" : "C:/msys64/mingw64/lib/cmake/raylib"
 		},
 		{
-			"name" : "snake-game-cpp_BINARY_DIR",
+			"name" : "snake-game-c_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1427,10 +1427,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/coding-projects/snake-game-cpp/build"
+			"value" : "C:/coding-projects/snake-game-c/build"
 		},
 		{
-			"name" : "snake-game-cpp_IS_TOP_LEVEL",
+			"name" : "snake-game-c_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1442,7 +1442,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "snake-game-cpp_SOURCE_DIR",
+			"name" : "snake-game-c_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1451,7 +1451,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/coding-projects/snake-game-cpp"
+			"value" : "C:/coding-projects/snake-game-c"
 		}
 	],
 	"kind" : "cache",

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\coding-projects\snake-game-cpp
+CMAKE_SOURCE_DIR = C:\coding-projects\snake-game-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\coding-projects\snake-game-cpp\build
+CMAKE_BINARY_DIR = C:\coding-projects\snake-game-c\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-cpp\build\CMakeFiles C:\coding-projects\snake-game-cpp\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-c\build\CMakeFiles C:\coding-projects\snake-game-c\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-cpp\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\coding-projects\snake-game-c\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,29 +112,29 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P C:\coding-projects\snake-game-cpp\build\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P C:\coding-projects\snake-game-c\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named snake-game-cpp
+# Target rules for targets named snake-game-c
 
 # Build rule for target.
-snake-game-cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake-game-cpp
-.PHONY : snake-game-cpp
+snake-game-c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake-game-c
+.PHONY : snake-game-c
 
 # fast build rule for target.
-snake-game-cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/build
-.PHONY : snake-game-cpp/fast
+snake-game-c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/build
+.PHONY : snake-game-c/fast
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -142,7 +142,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -150,7 +150,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-cpp.dir\build.make CMakeFiles/snake-game-cpp.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake-game-c.dir\build.make CMakeFiles/snake-game-c.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... snake-game-cpp
+	@echo ... snake-game-c
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
@@ -176,7 +176,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P C:\coding-projects\snake-game-cpp\build\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P C:\coding-projects\snake-game-c\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

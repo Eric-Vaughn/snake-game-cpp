@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\snake-game-cpp.dir/objects.a
-C:\raylib\w64devkit\bin\ar.exe qc CMakeFiles\snake-game-cpp.dir/objects.a @CMakeFiles\snake-game-cpp.dir\objects1.rsp
-c:\raylib\w64devkit\bin\ccache-gcc.exe -g -Wl,--whole-archive CMakeFiles\snake-game-cpp.dir/objects.a -Wl,--no-whole-archive -o snake-game-cpp\snake-game-cpp.exe -Wl,--out-implib,libsnake-game-cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\snake-game-cpp.dir\linkLibs.rsp

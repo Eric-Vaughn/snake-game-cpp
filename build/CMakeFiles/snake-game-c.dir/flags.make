@@ -4,7 +4,7 @@
 # compile C with c:/raylib/w64devkit/bin/ccache-gcc.exe
 C_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DUSE_LIBTYPE_SHARED
 
-C_INCLUDES = @CMakeFiles\snake-game-cpp.dir\includes_C.rsp
+C_INCLUDES = @CMakeFiles\snake-game-c.dir\includes_C.rsp
 
 C_FLAGS = -g
 
