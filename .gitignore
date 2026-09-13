@@ -1,0 +1,2 @@
+# Ignore the entire build directory and all compiler outputs
+build/
