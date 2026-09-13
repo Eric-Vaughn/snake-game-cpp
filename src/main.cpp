@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <raylib.h>
+
+Color green = {173, 204, 96, 255};
+Color darkGreen = {43, 51, 24, 255};
+
+int cellSize = 30;
+int cellCount = 25;
+
+int main() {
+    printf("Starting the game...\n");
+    InitWindow(cellSize * cellCount, cellSize * cellCount, "Retro Snake"); // Create game window
+    SetTargetFPS(60);
+
+    // Main game loop
+    while(!WindowShouldClose()) {
+        BeginDrawing(); // Creates a blank canvas to draw game objects on
+
+        // Drawing
+        ClearBackground(green);
+
+        EndDrawing(); // MUST end drawing
+    }
+
+    CloseWindow(); // MUST destory game window
+    return 0;
+}
