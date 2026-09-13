@@ -3,14 +3,14 @@
 
 int main() {
     printf("Starting the game...\n");
-    InitWindow(750, 750, "Retro Snake");
+    InitWindow(750, 750, "Retro Snake"); // Create game window
     SetTargetFPS(60);
 
     while(WindowShouldClose == false) {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
 
-        EndDrawing();
+        EndDrawing(); // MUST end drawing
     }
-    CloseWindow();
+    CloseWindow(); // MUST destory game window
     return 0;
 }
