@@ -4,6 +4,7 @@
 int main() {
     printf("Starting the game...\n");
     InitWindow(750, 750, "Retro Snake");
+    SetTargetFPS(60);
 
     while(WindowShouldClose == false) {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
