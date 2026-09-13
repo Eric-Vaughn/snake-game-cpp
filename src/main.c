@@ -6,11 +6,13 @@ int main() {
     InitWindow(750, 750, "Retro Snake"); // Create game window
     SetTargetFPS(60);
 
-    while(WindowShouldClose == false) {
+    // Main game loop
+    while(!WindowShouldClose()) {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
 
         EndDrawing(); // MUST end drawing
     }
+
     CloseWindow(); // MUST destory game window
     return 0;
 }
