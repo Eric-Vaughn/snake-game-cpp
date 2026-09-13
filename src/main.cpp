@@ -12,9 +12,22 @@ int cellCount = 25;
 class Food {
     public:
         Vector2 position = {5, 6};
+        Texture2D texture;
+
+        // Constructor
+        Food() {
+            Image image = LoadImage("./resources/graphics/food.png");
+            texture = LoadTextureFromImage(image);
+            UnloadImage(image);
+        }
+
+        // Destructor
+        ~Food() {
+            UnloadTexture(texture);
+        }
 
         void Draw() {
-            DrawRectangle(position.x * cellSize, position.y * cellSize, cellSize, cellSize, darkGreen);
+            DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
         }
 
 };
