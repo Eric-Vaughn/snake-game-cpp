@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include <iostream>
 #include <raylib.h>
+
+using namespace std; // Tutorial has this, I know it's not best practice
 
 Color green = {173, 204, 96, 255};
 Color darkGreen = {43, 51, 24, 255};
@@ -14,7 +16,9 @@ class Food {
 };
 
 int main() {
-    printf("Starting the game...\n");
+    
+    cout << "Starting the game..." << endl;
+    // printf("Starting the game...\n");
     InitWindow(cellSize * cellCount, cellSize * cellCount, "Retro Snake"); // Create game window
     SetTargetFPS(60);
 
