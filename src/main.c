@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <raylib.h>
 
+Color green = {173, 204, 96, 255};
+Color darkGreen = {43, 51, 24, 255};
+
 int main() {
     printf("Starting the game...\n");
     InitWindow(750, 750, "Retro Snake"); // Create game window
