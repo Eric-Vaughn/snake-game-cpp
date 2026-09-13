@@ -13,6 +13,9 @@ int main() {
     while(!WindowShouldClose()) {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
 
+        // Drawing
+        ClearBackground(green);
+
         EndDrawing(); // MUST end drawing
     }
 
