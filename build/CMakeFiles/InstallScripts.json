@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/coding-projects/snake-game-c/build/cmake_install.cmake",
-		"C:/coding-projects/snake-game-c/build/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
