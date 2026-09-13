@@ -26,12 +26,15 @@ int main() {
     InitWindow(cellSize * cellCount, cellSize * cellCount, "Retro Snake"); // Create game window
     SetTargetFPS(60);
 
+    Food food = Food();
+
     // Main game loop
     while(!WindowShouldClose()) {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
 
         // Drawing
         ClearBackground(green);
+        food.Draw();
 
         EndDrawing(); // MUST end drawing
     }
