@@ -16,7 +16,7 @@ class Food {
 
         // Constructor
         Food() {
-            Image image = LoadImage("./resources/graphics/food.png");
+            Image image = LoadImage("src/resources/graphics/food.png"); // Path from project root? Weird.
             texture = LoadTextureFromImage(image);
             UnloadImage(image);
         }
