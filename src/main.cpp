@@ -132,6 +132,22 @@ public:
     bool running = true;
     int score = 0;
 
+    Sound eatSound;
+    Sound wallSound;
+
+    Game()
+    {
+        InitAudioDevice();
+        eatSound = LoadSound("src/resources/audio/eat.mp3");
+        wallSound = LoadSound("src/resources/audio/wall.mp3");
+    }
+
+    ~Game()
+    {
+        UnloadSound(eatSound);
+        UnloadSound(wallSound);
+    }
+
     void Draw()
     {
         snake.Draw();
@@ -157,6 +173,7 @@ public:
             food.position = food.GenerateRandomPos(snake.body);
             snake.addSegment = true;
             score++;
+            PlaySound(eatSound);
         }
     }
 
@@ -189,6 +206,7 @@ public:
         food.position = food.GenerateRandomPos(snake.body);
         running = false;
         score = 0;
+        PlaySound(wallSound);
     }
 };
 
