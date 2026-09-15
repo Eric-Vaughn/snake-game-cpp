@@ -70,6 +70,7 @@ int main()
     SetTargetFPS(60);
 
     Food food = Food();
+    Snake snake = Snake();
 
     // Main game loop
     while (!WindowShouldClose())
@@ -79,6 +80,7 @@ int main()
         // Drawing
         ClearBackground(green);
         food.Draw();
+        snake.Draw();
 
         EndDrawing(); // MUST end drawing
     }
