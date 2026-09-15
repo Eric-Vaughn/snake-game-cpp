@@ -165,6 +165,11 @@ int main()
             game.Update();
         }
 
+        // Player movement
+        /* TODO: BUG
+        If two keys are pressed quickly, the snake can
+        "turn around" in place
+        */
         if (IsKeyPressed(KEY_UP) && game.snake.direction.y != 1) // UP
         {
             game.snake.direction = {0, -1};
