@@ -127,6 +127,7 @@ class Game
 public:
     Snake snake = Snake();
     Food food = Food(snake.body);
+    bool running = true;
 
     void Draw()
     {
@@ -136,8 +137,12 @@ public:
 
     void Update()
     {
-        snake.Update();
-        CheckCollisionWithFood();
+        if (running)
+        {
+            snake.Update();
+            CheckCollisionWithFood();
+            CheckCollisionWithEdge();
+        }
     }
 
     void CheckCollisionWithFood()
@@ -167,6 +172,7 @@ public:
     {
         snake.Reset();
         food.position = food.GenerateRandomPos(snake.body);
+        running = false;
     }
 };
 
