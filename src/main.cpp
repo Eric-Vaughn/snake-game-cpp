@@ -114,12 +114,12 @@ public:
 
     Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
     {
-        Vector2 postion = GenerateRandomCell();
+        position = GenerateRandomCell();
         while (ElementInDeque(position, snakeBody))
         {
-            postion = GenerateRandomCell();
+            position = GenerateRandomCell();
         }
-        return postion;
+        return position;
     }
 };
 
