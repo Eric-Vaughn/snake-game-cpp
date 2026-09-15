@@ -59,12 +59,13 @@ public:
 
     void Update()
     {
-        body.push_front(Vector2Add(body[0], direction));
-        if (addSegment)
+        body.push_front(Vector2Add(body[0], direction)); // Always add a segment to the front
+
+        if (addSegment) // We already added a segment, so just reset control var
         {
             addSegment = false;
         }
-        else
+        else // We only want to move, not add a segment
         {
             body.pop_back();
         }
@@ -142,6 +143,7 @@ public:
             snake.Update();
             CheckCollisionWithFood();
             CheckCollisionWithEdge();
+            CheckCollisionWithTail();
         }
     }
 
@@ -163,6 +165,16 @@ public:
             GameOver();
         }
         if (snake.body[0].y == cellCount || snake.body[0].y == -1)
+        {
+            GameOver();
+        }
+    }
+
+    void CheckCollisionWithTail()
+    {
+        deque<Vector2> headlessBody = snake.body;
+        headlessBody.pop_front();
+        if (ElementInDeque(snake.body[0], headlessBody))
         {
             GameOver();
         }
