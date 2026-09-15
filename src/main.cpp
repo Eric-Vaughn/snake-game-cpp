@@ -19,7 +19,7 @@ bool ElementInDeque(Vector2 element, deque<Vector2> deque)
     {
         if (Vector2Equals(deque[i], element))
         {
-            true;
+            return true;
         }
     }
 
