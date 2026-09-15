@@ -131,6 +131,7 @@ public:
     Food food = Food(snake.body);
     bool running = true;
     int score = 0;
+    int highScore = 0;
 
     Sound eatSound;
     Sound wallSound;
@@ -172,8 +173,12 @@ public:
         {
             food.position = food.GenerateRandomPos(snake.body);
             snake.addSegment = true;
-            score++;
             PlaySound(eatSound);
+            score++;
+            if (score > highScore)
+            {
+                highScore = score;
+            }
         }
     }
 
@@ -264,6 +269,7 @@ int main()
             darkGreen);
         DrawText("Retro Snake", offset - 5, 20, 40, darkGreen);
         DrawText(TextFormat("Score: %i", game.score), offset - 5, offset + cellSize * cellCount + 10, 40, darkGreen);
+        DrawText(TextFormat("High Score: %i", game.highScore), cellSize * cellCount - (7 * cellSize), offset + cellSize * cellCount + 10, 40, darkGreen);
         game.Draw();
 
         EndDrawing(); // MUST end drawing
