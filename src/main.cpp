@@ -69,6 +69,12 @@ public:
             body.pop_back();
         }
     }
+
+    void Reset()
+    {
+        body = {Vector2{6, 9}, Vector2{5, 9}, Vector2{4, 9}};
+        direction = {1, 0};
+    }
 };
 
 class Food
@@ -159,7 +165,7 @@ public:
 
     void GameOver()
     {
-        cout << "Game Over" << endl;
+        snake.Reset();
     }
 };
 
