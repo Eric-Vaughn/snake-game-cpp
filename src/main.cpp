@@ -129,13 +129,14 @@ class Game
 public:
     Snake snake = Snake();
     Food food = Food(snake.body);
-    bool running = true;
+    bool running = true; // Pauses the game after a GameOver
     int score = 0;
     int highScore = 0;
 
     Sound eatSound;
     Sound wallSound;
 
+    // Constructor
     Game()
     {
         InitAudioDevice();
@@ -143,6 +144,7 @@ public:
         wallSound = LoadSound("src/resources/audio/wall.mp3");
     }
 
+    // Destructor
     ~Game()
     {
         UnloadSound(eatSound);
@@ -164,6 +166,15 @@ public:
             CheckCollisionWithEdge();
             CheckCollisionWithTail();
         }
+    }
+
+    void GameOver()
+    {
+        snake.Reset();
+        food.position = food.GenerateRandomPos(snake.body);
+        running = false;
+        score = 0;
+        PlaySound(wallSound);
     }
 
     void CheckCollisionWithFood()
@@ -204,22 +215,12 @@ public:
             GameOver();
         }
     }
-
-    void GameOver()
-    {
-        snake.Reset();
-        food.position = food.GenerateRandomPos(snake.body);
-        running = false;
-        score = 0;
-        PlaySound(wallSound);
-    }
 };
 
 int main()
 {
 
     cout << "Starting the game..." << endl;
-    // printf("Starting the game...\n");
     InitWindow(2 * offset + cellSize * cellCount, 2 * offset + cellSize * cellCount, "Retro Snake"); // Create game window
     SetTargetFPS(60);
 
@@ -236,6 +237,7 @@ int main()
         }
 
         // Player movement
+
         /* TODO: BUG
         If two keys are pressed quickly, the snake can
         "turn around" in place
@@ -262,13 +264,19 @@ int main()
         }
 
         // Drawing
+
+        // Clear screen
         ClearBackground(green);
+        // Game border
         DrawRectangleLinesEx(
             Rectangle{(float)offset - 5, (float)offset - 5, (float)cellSize * cellCount + 10, (float)cellSize * cellCount + 10},
             5,
             darkGreen);
+        // Game title
         DrawText("Retro Snake", offset - 5, 20, 40, darkGreen);
+        // Score
         DrawText(TextFormat("Score: %i", game.score), offset - 5, offset + cellSize * cellCount + 10, 40, darkGreen);
+        // Highscore
         DrawText(TextFormat("High Score: %i", game.highScore), cellSize * cellCount - (7 * cellSize), offset + cellSize * cellCount + 10, 40, darkGreen);
         game.Draw();
 
