@@ -204,18 +204,22 @@ int main()
         if (IsKeyPressed(KEY_UP) && game.snake.direction.y != 1) // UP
         {
             game.snake.direction = {0, -1};
+            game.running = true;
         }
         if (IsKeyPressed(KEY_DOWN) && game.snake.direction.y != -1) // DOWN
         {
             game.snake.direction = {0, 1};
+            game.running = true;
         }
         if (IsKeyPressed(KEY_LEFT) && game.snake.direction.x != 1) // LEFT
         {
             game.snake.direction = {-1, 0};
+            game.running = true;
         }
         if (IsKeyPressed(KEY_RIGHT) && game.snake.direction.x != -1) // RIGHT
         {
             game.snake.direction = {1, 0};
+            game.running = true;
         }
 
         // Drawing
