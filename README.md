@@ -1,6 +1,6 @@
 # Snake Game C++
 
-A C++ version of the classic game Snake, using raylib for visualization.
+A C++ version of the classic game [Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)), using raylib for visualization.
 
 ## Overview
 
