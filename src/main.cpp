@@ -10,43 +10,49 @@ Color darkGreen = {43, 51, 24, 255};
 int cellSize = 30;
 int cellCount = 25;
 
-class Snake {
-    
+class Snake
+{
+public:
+    deque<Vector2> body = {Vector2{6, 9}, Vector2{5, 9}, Vector2{4, 9}};
 };
 
-class Food {
-    public:
-        Vector2 position;
-        Texture2D texture;
+class Food
+{
+public:
+    Vector2 position;
+    Texture2D texture;
 
-        // Constructor
-        Food() {
-            Image image = LoadImage("src/resources/graphics/food.png");
-            texture = LoadTextureFromImage(image);
-            UnloadImage(image);
-            position = GenerateRandomPos();
-        }
+    // Constructor
+    Food()
+    {
+        Image image = LoadImage("src/resources/graphics/food.png");
+        texture = LoadTextureFromImage(image);
+        UnloadImage(image);
+        position = GenerateRandomPos();
+    }
 
-        // Destructor
-        ~Food() {
-            UnloadTexture(texture);
-        }
+    // Destructor
+    ~Food()
+    {
+        UnloadTexture(texture);
+    }
 
-        void Draw() {
-            DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
-        }
+    void Draw()
+    {
+        DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
+    }
 
-        Vector2 GenerateRandomPos() {
-            float x = GetRandomValue(0, cellCount - 1);
-            float y = GetRandomValue(0, cellCount - 1);
-            return Vector2{x, y};
-            
-        }
-
+    Vector2 GenerateRandomPos()
+    {
+        float x = GetRandomValue(0, cellCount - 1);
+        float y = GetRandomValue(0, cellCount - 1);
+        return Vector2{x, y};
+    }
 };
 
-int main() {
-    
+int main()
+{
+
     cout << "Starting the game..." << endl;
     // printf("Starting the game...\n");
     InitWindow(cellSize * cellCount, cellSize * cellCount, "Retro Snake"); // Create game window
@@ -55,7 +61,8 @@ int main() {
     Food food = Food();
 
     // Main game loop
-    while(!WindowShouldClose()) {
+    while (!WindowShouldClose())
+    {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
 
         // Drawing
