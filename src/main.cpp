@@ -13,6 +13,19 @@ int cellCount = 25;
 
 double lastUpdateTime = 0; // Time at which last update of the Snake occured
 
+bool ElementInDeque(Vector2 element, deque<Vector2> deque)
+{
+    for (unsigned int i = 0; i < deque.size(); i++)
+    {
+        if(Vector2Equals(deque[i], element))
+        {
+            true;
+        }
+    }
+
+    return false;
+}
+
 bool eventTriggered(double interval)
 {
     double currentTime = GetTime(); // In seconds
@@ -77,11 +90,13 @@ public:
         DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
     }
 
-    Vector2 GenerateRandomPos()
+    Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
     {
         float x = GetRandomValue(0, cellCount - 1);
         float y = GetRandomValue(0, cellCount - 1);
-        return Vector2{x, y};
+        Vector2 postion = {x, y};
+
+        return postion // TODO **********************************************
     }
 };
 
