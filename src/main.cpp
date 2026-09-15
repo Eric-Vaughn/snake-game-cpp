@@ -19,6 +19,7 @@ public:
     {
         for (unsigned int i = 0; i < body.size(); i++)
         {
+            // Rectangle struct wants floats not int
             float x = body[i].x;
             float y = body[i].y;
             Rectangle segment = Rectangle{x * cellSize, y * cellSize, (float)cellSize, (float)cellSize};
