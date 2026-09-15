@@ -108,7 +108,7 @@ public:
         // Check if snake's head is at food's position
         if (Vector2Equals(snake.body[0], food.position))
         {
-            cout << "Eating food" << endl;
+            food.position = food.GenerateRandomPos();
         }
     }
 };
