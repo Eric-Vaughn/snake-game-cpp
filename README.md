@@ -6,7 +6,7 @@ A C++ version of the classic game [Snake](https://en.wikipedia.org/wiki/Snake_(v
 
 This project is the first stepping stone on my journey with raylib!
 
-Overall, this project was good. It wasn't very hard and served as good exposer to raylib's functions / basic structure. I plan on making another classic game, or something similar, next — this time using a tutorial as a "help me, I'm stuck" resource instead of following along.
+Overall, this project was good. It wasn't very hard and served as good exposure to raylib's functions / basic structure. I plan on making another classic game, or something similar, next — this time using a tutorial as a "help me, I'm stuck" resource instead of following along.
 
 ## The tutorial this project follows
 
