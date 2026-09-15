@@ -1,6 +1,7 @@
 #include <iostream>
 #include <raylib.h>
 #include <deque>
+#include <raymath.h>
 
 using namespace std; // Tutorial has this, I know it's not best practice
 
@@ -14,6 +15,7 @@ class Snake
 {
 public:
     deque<Vector2> body = {Vector2{6, 9}, Vector2{5, 9}, Vector2{4, 9}};
+    Vector2 direction = {1, 0};
 
     void Draw()
     {
@@ -25,6 +27,12 @@ public:
             Rectangle segment = Rectangle{x * cellSize, y * cellSize, (float)cellSize, (float)cellSize};
             DrawRectangleRounded(segment, 0.5, 6, darkGreen);
         }
+    }
+
+    void Update()
+    {
+        body.pop_back();
+        body.push_front(body[0] + direction);
     }
 };
 
@@ -78,6 +86,8 @@ int main()
     while (!WindowShouldClose())
     {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
+
+        snake.Update();
 
         // Drawing
         ClearBackground(green);
