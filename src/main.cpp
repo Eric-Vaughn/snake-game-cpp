@@ -166,6 +166,7 @@ public:
     void GameOver()
     {
         snake.Reset();
+        food.position = food.GenerateRandomPos(snake.body);
     }
 };
 
