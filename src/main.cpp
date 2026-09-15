@@ -17,7 +17,7 @@ bool ElementInDeque(Vector2 element, deque<Vector2> deque)
 {
     for (unsigned int i = 0; i < deque.size(); i++)
     {
-        if(Vector2Equals(deque[i], element))
+        if (Vector2Equals(deque[i], element))
         {
             true;
         }
@@ -71,12 +71,12 @@ public:
     Texture2D texture;
 
     // Constructor
-    Food()
+    Food(deque<Vector2> snakeBody)
     {
         Image image = LoadImage("src/resources/graphics/food.png");
         texture = LoadTextureFromImage(image);
         UnloadImage(image);
-        position = GenerateRandomPos();
+        position = GenerateRandomPos(snakeBody);
     }
 
     // Destructor
@@ -90,26 +90,34 @@ public:
         DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
     }
 
-    Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
+    Vector2 GenerateRandomCell()
     {
         float x = GetRandomValue(0, cellCount - 1);
         float y = GetRandomValue(0, cellCount - 1);
-        Vector2 postion = {x, y};
+        return Vector2{x, y};
+    }
 
-        return postion // TODO **********************************************
+    Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
+    {
+        Vector2 postion = GenerateRandomCell();
+        while (ElementInDeque(position, snakeBody))
+        {
+            postion = GenerateRandomCell();
+        }
+        return postion;
     }
 };
 
 class Game
 {
 public:
-    Food food = Food();
     Snake snake = Snake();
+    Food food = Food(snake.body);
 
     void Draw()
     {
-        food.Draw();
         snake.Draw();
+        food.Draw();
     }
 
     void Update()
@@ -123,7 +131,7 @@ public:
         // Check if snake's head is at food's position
         if (Vector2Equals(snake.body[0], food.position))
         {
-            food.position = food.GenerateRandomPos();
+            food.position = food.GenerateRandomPos(snake.body);
         }
     }
 };
