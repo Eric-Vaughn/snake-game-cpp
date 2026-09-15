@@ -11,6 +11,20 @@ Color darkGreen = {43, 51, 24, 255};
 int cellSize = 30;
 int cellCount = 25;
 
+double lastUpdateTime = 0; // Time at which last update of the Snake occured
+
+bool eventTriggered(double interval)
+{
+    double currentTime = GetTime(); // In seconds
+    if (currentTime - lastUpdateTime >= interval)
+    {
+        lastUpdateTime = currentTime;
+        return true;
+    }
+
+    return false;
+}
+
 class Snake
 {
 public:
@@ -87,7 +101,10 @@ int main()
     {
         BeginDrawing(); // Creates a blank canvas to draw game objects on
 
-        snake.Update();
+        if (eventTriggered(0.2))
+        {
+            snake.Update();
+        }
 
         // Drawing
         ClearBackground(green);
