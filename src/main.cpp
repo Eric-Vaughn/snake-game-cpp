@@ -85,6 +85,24 @@ public:
     }
 };
 
+class Game
+{
+public:
+    Food food = Food();
+    Snake snake = Snake();
+
+    void Draw()
+    {
+        food.Draw();
+        snake.Draw();
+    }
+
+    void Update()
+    {
+        snake.Update();
+    }
+};
+
 int main()
 {
 
